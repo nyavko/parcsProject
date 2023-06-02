@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class FloydWarshallMain {
 
-    private static int NUM_DAEMONS = 2;
+    private static int NUM_DAEMONS = 1;
 
     private static channel[] channels;
     private static point[] points;
