@@ -14,7 +14,7 @@ public class FloydWarshallMain {
     public static void main(String[] args) throws Exception {
         task curtask = new task();
         curtask.addJarFile("FloydWarshallModule.jar");
-        matrix = readData(curtask.findFile("input.txt"));
+        matrix = readData(curtask.findFile("input2.txt"));
 
         System.out.println("Vertices count: " + matrix.length);
 
