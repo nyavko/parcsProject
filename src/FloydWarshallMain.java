@@ -45,7 +45,7 @@ public class FloydWarshallMain {
         int[][] result = gatherData();
 
         System.out.println("RESULT DISTANCES");
-        print(result);
+        //print(result);
         System.out.println();
 
         System.out.println("The given input has been successfully processed. ");
